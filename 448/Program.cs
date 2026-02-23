@@ -13,9 +13,9 @@ namespace _448
         {
             Console.WriteLine("Hello,World!");
             Node first = new Node { Value = 3 };
-            Node second = new Node { Value = 4 };
-            Node third = new Node { Value = 5 };
-            Node fourth = new Node { Value = 6 };
+            Node second = new Node { Value = 6 };
+            Node third = new Node { Value = 8 };
+            Node fourth = new Node { Value = 10 };
             Node fifth = new Node { Value = 7 };
 
             first.Next = second;
@@ -23,7 +23,7 @@ namespace _448
             third.Next = fourth;
             fourth.Next = fifth;
             fifth.Next = null;
-            Print(second);
+            Print(fourth);
 
             void Print(Node node)
             {
